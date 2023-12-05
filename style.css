@@ -1,0 +1,280 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.h4{ 
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 7px 0px;
+
+
+}
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding-top: 30px;
+    align-items: center;
+    
+}
+
+.Partie1{
+
+    position: absolute;
+
+} 
+.Partie2 a{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    margin-left: 10px;
+    background-color: black;
+width: 100px;
+height: 50px;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+
+}
+.KOULCHI{
+    display: grid;
+    grid-template-columns: 20px 300px;
+    grid-template-rows: 13px 13px 13px;
+   gap: 10px;
+   font-size: 14px;
+    
+
+}
+article{
+    width: 100%;
+    margin-top: 100px;
+}
+.article{
+    width: 400px;
+    
+    margin-top: 60px;
+   
+}
+.Partie4{
+    display: none;
+    
+
+}
+p{
+    color: gray;
+    font-size: 12px;
+    line-height: 20px;
+}
+input{
+  
+    padding: 15px;
+}
+article{
+    display: flex;
+  justify-content: space-evenly;
+ 
+  
+
+}
+h1{font-size: 35px;}
+header{
+    background-color: #e1e1e1;
+    margin-bottom: 30px;
+}
+.logos{
+
+
+text-align: center;
+}
+.logos img{
+    width: 100px;
+ text-align: center;
+ margin: 15px; 
+}
+.Article2{
+
+    background-color: #e1e1e1;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+   
+}
+.imgD2{
+   position: absolute;
+   display: inline-block;
+   margin-left:50px; 
+   display: grid;
+   justify-items: end; 
+}
+.Article22{
+  
+    margin-left: 70px;
+    margin-top: 60px;
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    
+}
+.Article22 a{
+    cursor: pointer;
+}
+.aAAA{
+    color: black;
+     cursor: pointer;
+}
+.Article3{
+    width: 900px;
+    height: 300px;
+ 
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+.Article33{
+    margin: auto;
+}
+footer a{
+    text-decoration: none;
+    display: block;
+    color: #898989;
+    font-size: 13px;
+    line-height: 20px;
+}
+footer{
+    padding: 50px 0px;
+    background-color: black;
+  justify-content: space-around;
+    display: flex;
+    gap: 40px;
+}
+h3{ font-size: 15PX;
+    color: white;
+}
+.haah{
+    display:flex;
+    
+    gap: 60px;
+}
+.imgP1{
+    display: none;
+}
+.imgP2{ display: none;
+}
+@media (max-width: 480px) {
+   
+    .h4{ 
+        width: 100%;
+        height: 90px;
+        padding: 10px 0px;
+    
+    
+    }
+    .Partie2,.Partie3{
+        display: none;
+    }
+    .Partie4{
+        display: block;
+    
+    }
+    nav{
+   
+        
+        justify-content: space-between;
+        padding: 20px 15px;
+        
+        
+    }
+    .imgD1{
+        display: none;
+    }
+    .imgP1{
+        display: block;
+    }
+    article{
+       flex-direction: column;
+       margin: 10px 20px;
+    }
+   
+    .mchahada{
+        display: none;
+    }
+    .logos img{
+        width: 100px;
+     
+    
+     margin-left: 6px;
+    }
+    
+    .Article2{
+        background-color: #e1e1e1;
+        width: 360px;
+        height: 600px;
+        position: relative;
+        margin: auto; 
+    }
+    .Article22{
+        display: block;
+        width: 280px;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: -55px;
+    }
+    .imgP2{
+        display: block;
+        position: absolute;
+        bottom: 0;
+    }
+    .imgD2{
+        display:none;
+        
+    }
+   
+    .Article3{
+        flex-direction: column-reverse;
+        margin: 200px  20px 20px;
+        gap: 20px;
+        display: flex;
+        width: 360px;
+        height: 400px;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+    .Article3 img{
+        
+        width: 380px;
+    }
+    .Article33{
+       align-self:center;
+        margin: 0;
+    }
+    .Article33 p{
+        width: 300px;
+    }
+    .Article33 h2{
+        width: 300px;
+        font-size: 20px;
+    }
+    footer{
+        display: block;
+    }
+}    
